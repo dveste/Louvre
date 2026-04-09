@@ -1,0 +1,789 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    margin: 0%;
+    background-color: rgb(172, 165, 159);
+    font-family: 'Rokkitt';
+    overflow-x: hidden;
+    
+    
+}
+
+.header{
+    position: relative;
+    text-align: center;
+    
+}
+.header-img{
+    width: 100%;
+    height: auto;
+    filter: blur(1px);
+    display: block;
+    
+}
+.header-text{
+    position: absolute;
+    top: 300px;
+    right: 440px;
+    color: white;
+    z-index: 3;
+
+}
+h2{
+    margin-top: 0;
+    font-weight: 350;
+}
+h1{
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.menu{
+    background-color: rgb(27, 24, 22);
+    width: 100%;
+    padding: 20px;
+
+}
+.menu ul{
+    margin: 0%;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.menu a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-family: Roboto Mono;
+    font-size: 13px;
+    white-space: nowrap;
+    transition: color 0.3s, text-decoration;
+    cursor: pointer;
+}
+
+.menu a:hover{
+    color: rgb(122, 122, 105);
+    text-decoration: underline;
+}
+
+.museum h1{
+    position: absolute;
+    padding-top: 30px;
+    left: 20px;
+   color: rgb(27, 24, 22);
+   font-weight: 400;
+   font-size: 30px;
+}
+.museum-img{
+    width: 300px;
+    padding-top: 15px;
+}
+.museum-img2{
+    position: absolute;
+    left: 30px;
+    padding-top: 120px;
+    width: 290px;
+    filter: drop-shadow(2px 3px 10px);
+    
+}
+.museum p{
+    position: absolute;
+    left: 370px;
+    padding-top: 90px;
+   width: 350px;
+   color: rgb(27, 24, 22);
+   font-size: 12px;
+   font-family:Roboto Mono;
+}
+
+
+.halls{
+  position: relative;
+  margin: 0%;
+}
+
+.box{
+    position: relative;
+}
+
+.halls{
+    background-image: url(https://learn.logikaschool.com/uploads/student/4702765/69d00cd9bad68.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.halls-img1{
+   display: block;
+   width: 100%;
+   margin-top: -10px;
+   height: 120px;
+}
+.halls-img2{
+    position: absolute;
+    top: 0%;
+    width: 540px;
+    height: 160px;
+    display: block;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
+
+}
+.halls h1{
+   position: absolute;
+    z-index: 3;
+    left: 70%;
+    top: 15%;
+    color: white;
+    font-weight: 300;
+
+
+}
+.egipet img{
+    width: 310px;
+    margin: 30px;
+}
+.egipet{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 60px;
+
+}
+.egipet-p1{
+    font-family: Roboto Mono;
+    font-weight: 500;
+    margin-bottom: 0%;
+    color: rgb(27, 24, 22);
+
+}
+.egipetp{
+    flex-direction: column;
+    margin-top: 35px;
+}
+.egipet-p2{
+    font-family: Roboto Mono;
+    font-size: 13px;
+    width: 270px;
+    margin-top: 0%;
+    color: white;
+}
+
+.anti img{
+    width: 310px;
+    margin: 30px;
+}
+.anti{
+    display: flex;
+    margin-top: 2px;
+
+}
+.anti-p1{
+    font-family: Roboto Mono;
+    font-weight: 500;
+    margin-bottom: 0%;
+    color: rgb(27, 24, 22);
+
+}
+.antip{
+    flex-direction: column;
+    margin-top: 20px;
+}
+.anti-p2{
+    font-family: Roboto Mono;
+    font-size: 13px;
+    width: 272px;
+    margin-top: 0%;
+    color: white;
+}
+
+.sculpt img{
+    width: 310px;
+    margin: 30px;
+}
+.sculpt{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 2px;
+
+}
+.sculpt-p1{
+    font-family: Roboto Mono;
+    font-weight: 500;
+    margin-bottom: 0%;
+    color: rgb(27, 24, 22);
+
+}
+.sculptp{
+    flex-direction: column;
+    margin-top: 30px;
+}
+.sculpt-p2{
+    font-family: Roboto Mono;
+    font-size: 13px;
+    width: 268px;
+    margin-top: 0%;
+    color: white;
+}
+
+
+.decor img{
+    width: 310px;
+    margin: 30px;
+}
+.decor{
+    display: flex;
+    margin-top: 2px;
+
+}
+.decor-p1{
+    font-family: Roboto Mono;
+    font-weight: 500;
+    margin-bottom: 0%;
+    color: rgb(27, 24, 22);
+
+}
+.decorp{
+    flex-direction: column;
+    margin-top: 20px;
+}
+.decor-p2{
+    font-family: Roboto Mono;
+    font-size: 13px;
+    width: 270px;
+    margin-top: 0%;
+    color: white;
+}
+
+.exhibits{
+    position: relative;
+}
+
+.ex-img{
+   position: absolute;
+   top: 300px;
+   width: 100%;
+   height: 200px;
+   object-fit: cover;
+   z-index: -1;
+}
+
+
+.exhibits h1{
+    margin-top: 0%;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(27, 24, 22);
+    padding: 20px;
+    font-size: 25px;
+    width: 100%;
+}
+
+.mona{
+    position: relative;
+}
+
+.mona-img1{
+    width: 160px;
+}
+.ex{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   gap: 70px;
+   margin-top: 70px;
+   
+   
+}
+.mona a{
+    text-decoration: none;
+    color: rgb(27, 24, 22);
+    font-family: Roboto Mono;
+}
+
+.davincha{
+    position: absolute;
+    font-weight: 200;
+    font-size: 12px;
+    top: 158px;
+    left: 18px;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+.davincha:hover{
+    color: rgb(182, 155, 7);
+}
+
+.mona-img2{
+    width: 120px;
+    position: absolute;
+    left: 18px;
+    top: 10px;
+}
+.lisa{
+    position: absolute;
+    top: 190px;
+    left: 35px;
+    transition: color 0.3s, text-decoration;
+    cursor: pointer;
+}
+
+.lisa:hover{
+    color: rgb(113, 101, 93);
+    text-decoration: underline;
+}
+
+.venera{
+    position: relative;
+}
+
+.venera a{
+    text-decoration: none;
+    color: rgb(27, 24, 22);
+    font-family: Roboto Mono;
+}
+
+.antioh{
+    position: absolute;
+    font-weight: 200;
+    font-size: 12px;
+    top: 158px;
+    left: 30px;
+    transition: color 0.3s;
+    cursor: pointer;
+
+}
+
+.antioh:hover{
+    color: rgb(182, 155, 7);
+}
+
+.venera-img2{
+    width: 120px;
+    position: absolute;
+    left: 22px;
+    top: 10px;
+}
+.milo{
+    position: absolute;
+    top: 190px;
+    left: 10px;
+    width: 150px;
+    transition: color 0.3s, text-decoration;
+    cursor: pointer;
+}
+
+.milo:hover{
+    color: rgb(113, 101, 93);
+    text-decoration: underline;
+}
+
+.venera-img1{
+    width: 160px;
+}
+
+.free{
+    position: relative;
+}
+
+.free a{
+    text-decoration: none;
+    color: rgb(27, 24, 22);
+    font-family: Roboto Mono;
+}
+
+.ezen{
+    position: absolute;
+    font-weight: 200;
+    font-size: 12px;
+    top: 158px;
+    left: 35px;
+    transition: color 0.3s;
+    cursor: pointer;
+
+}
+
+.ezen:hover{
+    color: rgb(182, 155, 7);
+}
+
+.free-img2{
+    width: 120px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.delakyra{
+    position: absolute;
+    top: 190px;
+    left: 5px;
+    width: 150px;
+    text-align: center;
+    transition: color 0.3s, text-decoration;
+    cursor: pointer;
+}
+
+
+.delakyra:hover{
+    color: rgb(113, 101, 93);
+    text-decoration: underline;
+}
+
+.free-img1{
+    width: 160px;
+}
+.ex1{
+    position: relative;
+    justify-content: center;
+    display: flex;
+   gap: 70px;
+    
+    margin-top: 70px;
+}
+
+.choven{
+    position: relative;
+}
+
+.choven a{
+    text-decoration: none;
+    color: rgb(27, 24, 22);
+    font-family: Roboto Mono;
+}
+
+.choven-img1{
+    width: 160px;
+}
+.choven-img2{
+    width: 120px;
+    position: absolute;
+    left: 18px;
+    top: 10px;
+}
+.bosh{
+    position: absolute;
+    font-weight: 200;
+    font-size: 12px;
+    top: 158px;
+    left: 30px;
+    width: 200px;
+    transition: color 0.3s;
+    cursor: pointer;
+
+}
+
+.bosh:hover{
+    color: rgb(182, 155, 7);
+}
+
+.dyrni{
+    position: absolute;
+    top: 190px;
+    left: 7px;
+    width: 150px;
+    text-align: center;
+    transition: color 0.3s, text-decoration;
+    cursor: pointer;
+}
+
+.dyrni:hover{
+    color: rgb(113, 101, 93);
+    text-decoration: underline;
+}
+
+
+.die{
+    position: relative;
+}
+
+.die a{
+    text-decoration: none;
+    color: rgb(27, 24, 22);
+    font-family: Roboto Mono;
+}
+
+.karavadzo{
+    position: absolute;
+    font-weight: 200;
+    font-size: 12px;
+    top: 158px;
+    left: 50px;
+    transition: color 0.3s;
+    cursor: pointer;
+
+}
+
+.karavadzo:hover{
+    color: rgb(182, 155, 7);
+}
+
+.die-img2{
+    width: 120px;
+    position: absolute;
+    left: 22px;
+    top: 10px;
+}
+.mari{
+    position: absolute;
+    top: 190px;
+    left: 10px;
+    width: 150px;
+    text-align: center;
+    transition: color 0.3s, text-decoration;
+    cursor: pointer;
+}
+
+.mari:hover{
+    color: rgb(113, 101, 93);
+    text-decoration: underline;
+}
+
+.die-img1{
+    width: 160px;
+}
+
+.astronom{
+    position: relative;
+}
+
+.astronom a{
+    text-decoration: none;
+    color: rgb(27, 24, 22);
+    font-family: Roboto Mono;
+}
+
+.vermer{
+    position: absolute;
+    font-weight: 200;
+    font-size: 12px;
+    top: 158px;
+    left: 60px;
+    transition: color 0.3s;
+    cursor: pointer;
+
+}
+
+.vermer:hover{
+    color: rgb(182, 155, 7);
+}
+
+.astronom-img2{
+    width: 120px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.astr{
+    position: absolute;
+    top: 190px;
+    left: 45px;
+    text-align: center;
+    transition: color 0.3s, text-decoration;
+    cursor: pointer;
+
+}
+
+
+.astr:hover{
+    color: rgb(113, 101, 93);
+    text-decoration: underline;
+}
+
+.astronom-img1{
+    width: 160px;
+}
+.video-excurs iframe{
+    border-radius: 10px;
+
+}
+.video-excurs h1{
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-weight: 300;
+    font-size: 55px;
+}
+.video-excurs{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+.video22{
+    display: flex;
+    justify-content: flex-end;
+    
+    margin-right: 30px;
+}
+.video1{
+    margin-top: 150px;
+    margin-left: 30px;
+    transition: opacity 0.3s ease, box-shadow 0.3s ease;
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: none;
+    
+}
+
+.video1:hover{
+    opacity: 0.7;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.video2{
+    transition: opacity 0.3s ease, box-shadow 0.3s ease;
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: none;
+}
+.video2:hover{
+    opacity: 0.7;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5)
+}
+
+.img-video{
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    width: 100%;
+    top: 30px;
+    height: auto;
+    
+    
+    
+}
+footer{
+    margin-top: 560px;
+    background-image: url(https://learn.logikaschool.com/uploads/student/4702765/69c78e3fc6653.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.footer-img{
+    width: 350px;
+    position: absolute;
+    left: 0%;
+    top: 50px;
+}
+.footer-img2{
+    position: absolute;
+    left: 250px;
+    top: 100px;
+    width: 340px;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.4));
+}
+.footer-text{
+    position: absolute;
+    z-index: 3;
+    left: 25px;
+    top: 55px;
+}
+footer h1{
+    font-weight: 400;
+    font-size: 50px;
+    color: rgb(27, 24, 22);
+}
+footer p{
+    font-weight: 300;
+    color: rgb(27, 24, 22);
+}
+.p-footer{
+    margin-top: 0%;
+    margin-bottom: 30px;
+}
+footer a{
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 12px;
+    color: rgb(27, 24, 22);
+}
+.img-text{
+    width: 9px;
+    margin: 0%;
+    vertical-align: middle;
+}
+.footer2{
+    margin-top: 50px;
+}
+
+.footer2 a{
+    transition: coloe 0.3s, text-decoration;
+    cursor: pointer;
+}
+.footer2 a:hover{
+    color: rgb(192, 192, 13);
+    text-decoration: underline;
+}
+
+.button{
+    position: absolute;
+    left: 30px;
+    top: 470px;
+    z-index: 3;
+    background-color: rgb(27, 24, 22);
+    border: 1px solid white;
+    border-radius: 5px; 
+    font-family: Rokkitt; 
+    color: white; 
+    font-weight: 300;
+    padding: 5px 20px;
+    font-size: 20px;
+    transition: color 0.3s, border-color 0.3s;
+    cursor: pointer;
+}
+
+.button:hover{
+    border-color: rgb(224, 184, 6);
+    color: rgb(224, 184, 6);
+}
+
+.socialnet{
+    position: relative;
+ 
+}
+.socialnet1{
+    position: absolute;
+    left: 50px;
+    top: 180px;
+    display: flex;
+    gap: 30px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.socialnet a{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.img-column1{
+    width: 13px;
+    margin: 0%;
+}
+.column a{
+    transition: color 0.3s, text-decoration;
+    text-decoration: none;
+    cursor: pointer;
+}
+.column a:hover{
+    color: rgb(225, 207, 12);
+    text-decoration: underline;
+}
+.column img{
+    transition: opacity 0.3s ease;
+    opacity: 1;
+    cursor: pointer;
+}
+.column img:hover{
+    opacity: 0.7;
+}
